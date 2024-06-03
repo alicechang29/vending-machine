@@ -1,0 +1,37 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home-snacks ul {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.Home-snacks li {
+  background-color: rgb(229, 229, 229);
+  border-color: black;
+  border-radius: 10%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.Home a {
+  padding: 0.5em 0;
+  color:black;
+  width: 10em;
+  text-decoration: none;
+}
+
+.Home a:hover {
+ color:red;
+}
+
+.Home a.active {
+  font-weight: bold;
+  color: black;
+}
